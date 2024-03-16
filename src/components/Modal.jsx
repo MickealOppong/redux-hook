@@ -4,7 +4,7 @@ import { closeModal } from '../features/modal/modalSlice';
 
 const Modal = () => {
   const dispatch = useDispatch();
-  return <aside className="absolute top-80 left-24 flex flex-col justify-center w-96 h-36 px-4 bg-white rounded-md shadow-md lg:left-1/4 z-50">
+  return <aside className="absolute top-80 left-20 flex flex-col justify-center w-96 h-36 px-4 bg-white rounded-md shadow-md lg:left-1/4 z-50 -ml-2">
     <div className="flex items-center">
       <h2>Do you want to remove all items from shopping cart?</h2>
     </div>
