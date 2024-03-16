@@ -13,7 +13,7 @@ const CartContainer = () => {
       </header>
     </section >
   }
-  return <section className="max-w-md mx-auto flex flex-col items-center mt-16 w-80 md:w-96">
+  return <section className="max-w-md mx-auto flex flex-col items-center mt-12 w-80 md:w-96">
     <header className="mb-12 text-3xl capitalize">
       <h2>your bag</h2>
     </header>
